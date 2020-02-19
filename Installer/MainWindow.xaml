@@ -1,0 +1,15 @@
+﻿<Window x:Class="Installer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="installer(2150-08-23) (addon for game)" Height="300" Width="550" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="gemail" HorizontalAlignment="Right" Height="39" Margin="0,10,10.4,0" TextWrapping="Wrap" Text="sample@sample.com" VerticalAlignment="Top" Width="287" FontSize="18" TextAlignment="Center"/>
+        <Label Content="Email address used at donation:" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password for download:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="gepassword" HorizontalAlignment="Right" Margin="0,63,10.6,0" Height="41" Width="287" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="downbutton" Content="Check files, and download" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="490" Click="Button_Click" RenderTransformOrigin="0.494,1.534"/>
+        <ListBox x:Name="choice" HorizontalAlignment="Left" Height="100" Margin="10,165,0,0" VerticalAlignment="Top" Width="490" Cursor="" SelectionMode="Multiple" IsSynchronizedWithCurrentItem="True" ToolTip="Optional downloadable packages"/>
+        <CheckBox x:Name="Autochk" Content="Try to find TS automatically" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.451,-1.141" IsChecked="True" ToolTip="The installer will try to find your Game if this is checked, else you need to select it"/>
+
+    </Grid>
+</Window>
