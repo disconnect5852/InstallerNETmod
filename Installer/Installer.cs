@@ -44,8 +44,8 @@ namespace Installer
         private const String DB2 = FOU + "index.php?reginstall=";
         private const bool DEBUG = false;
         private static readonly ParallelOptions para = new ParallelOptions { MaxDegreeOfParallelism = 12 };
-        private const String FOU="http://users.atw.hu/hurqaleee/";
-        private const String DB = FOU + "beta/l6r846.ztp";
+        private const String FOU="http://qs.qs.hu/asdasdasd/";
+        private const String DB = FOU + "beta/asdfgrt.xqd";
         private const String OPTION = FOU + "beta/choice.cqd";
         private static string mainhashlink;
         private static string decpass;
